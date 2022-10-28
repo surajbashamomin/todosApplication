@@ -1,0 +1,17 @@
+GET http://localhost:3000/todos/?status=TO%20DO
+
+###
+GET http://localhost:3000/todos/?priority=HIGH
+
+###
+GET http://localhost:3000/todos/1/
+
+###
+POST http://localhost:3000/todos/
+
+{
+    "id": 11,
+    "todo": "Play games",
+    "priority": "LOW",
+    "status": "DONE"
+}
